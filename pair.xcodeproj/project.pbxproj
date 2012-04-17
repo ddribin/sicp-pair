@@ -10,6 +10,7 @@
 		5598A2D8153D9BE800C0860B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5598A2D7153D9BE800C0860B /* Foundation.framework */; };
 		5598A2DB153D9BE800C0860B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5598A2DA153D9BE800C0860B /* main.m */; };
 		5598A2DF153D9BE800C0860B /* pair.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5598A2DE153D9BE800C0860B /* pair.1 */; };
+		5598A2E7153D9C1D00C0860B /* DDPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 5598A2E6153D9C1D00C0860B /* DDPair.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +30,10 @@
 		5598A2D3153D9BE800C0860B /* pair */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = pair; sourceTree = BUILT_PRODUCTS_DIR; };
 		5598A2D7153D9BE800C0860B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5598A2DA153D9BE800C0860B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5598A2DD153D9BE800C0860B /* pair-Prefix.pch */ = {isa = PBXFileReference; path = "pair-Prefix.pch"; sourceTree = "<group>"; };
+		5598A2DD153D9BE800C0860B /* pair-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pair-Prefix.pch"; sourceTree = "<group>"; };
 		5598A2DE153D9BE800C0860B /* pair.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = pair.1; sourceTree = "<group>"; };
+		5598A2E5153D9C1D00C0860B /* DDPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDPair.h; sourceTree = "<group>"; };
+		5598A2E6153D9C1D00C0860B /* DDPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDPair.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				5598A2DA153D9BE800C0860B /* main.m */,
+				5598A2E5153D9C1D00C0860B /* DDPair.h */,
+				5598A2E6153D9C1D00C0860B /* DDPair.m */,
 				5598A2DE153D9BE800C0860B /* pair.1 */,
 				5598A2DC153D9BE800C0860B /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5598A2DB153D9BE800C0860B /* main.m in Sources */,
+				5598A2E7153D9C1D00C0860B /* DDPair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

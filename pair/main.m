@@ -1,22 +1,12 @@
-//
-//  main.m
-//  pair
-//
-//  Created by Dave Dribin on 4/17/12.
-//  Copyright (c) 2012 Bit Maki, Inc. All rights reserved.
-//
-
-#import <Foundation/Foundation.h>
+#import "DDPair.h"
 
 int main (int argc, const char * argv[])
-{
+{ @autoreleasepool {
 
-    @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
-    }
+    DDPair pair = DDMakePair(@"red", @"green");
+    NSLog(@"first: %@", DDPairFirst(pair));
+    NSLog(@"second: %@", DDPairSecond(pair));
+
     return 0;
-}
+}}
 
